@@ -1,0 +1,58 @@
+.sign-up-form {
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    background: #fff;
+    padding: 20px;
+    margin: 2% auto;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.sign-up-form h1 {
+
+    margin-bottom: 30px;
+}
+.fa-user-plus {
+    padding: 5px;
+    font-size: 2rem;
+    color: #1a1a1a;
+}
+.input-box {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    border: 1px solid #999;
+    outline: none;
+}
+
+button {
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+
+.signup-btn {
+    background-color: #1a1a1a;
+}
+.facebook-btn {
+    background-color: #3b5998;
+}
+
+.twitter-btn {
+    background-color: #1DA1F2
+}
+
+.or {
+    background: #fff;
+    width: 30px;
+    margin: -19px auto 10px;
+    padding: 5px;
+}
