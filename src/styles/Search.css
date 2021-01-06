@@ -1,0 +1,42 @@
+.form-wrapper {
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 20px;
+    height: 75vh;
+}
+
+h2 {
+    text-align: center;
+}
+
+i {
+    font-size: 1.5rem;
+    color: #1a1a1a;
+  
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-btn {
+    width: 100%;
+    background: linear-gradient(90deg, rgb(110, 94, 254) 0%, rgba(73, 63, 252, 1) 100%);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-btn:hover {
+    background: #1a1a1a;
+    color: #fff;
+}
+
