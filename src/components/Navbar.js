@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import '../components/Navbar';
 import '../styles/Navbar.css';
 
@@ -12,18 +13,20 @@ class Navbar extends Component  {
         return (
             <>
             <nav className="nav-wrapper">
+            <Link to="/">
                 <p className="navbar-logo"><i class="fas fa-house-user"></i>  SURREAL ESTATE</p>
+            </Link>
                 <div className="menu-icon" onClick={this.handleClick}>
-                    <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
+                        <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
                 </div>
                 <ul className={this.state.clicked ? 'nav-bar active' : 'nav-bar'}>
-                    <li className="nav-links">Home</li>
-                    <li className="nav-links">About</li>
-                    <li className="nav-links">Blog</li>
-                    <li className="nav-links">Products</li>
-                    <li className="nav-links">Contact</li>
+                    <Link to="/" className="nav-links">Home</Link>
+                    <li className="nav-links">For Sale</li>
+                    <li className="nav-links">To Rent</li>
+                    <li className="nav-links">Find Agents</li>
+                    <Link to="/contact" className="nav-links">Contact</Link>
                     <li className="nav-links">Sign In</li>
-                    <li className="nav-links">Sign Up</li>
+                    <Link to="/sign-up" className="nav-links">Sign Up</Link>
                 </ul>
             </nav>
             </>

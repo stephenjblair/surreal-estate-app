@@ -11,8 +11,8 @@
     color: #fff;
     justify-self: start;
     margin-left: 20px;
-    cursor: pointer;
-    
+    cursor: pointer; 
+    text-decoration: none; 
 }
 
 .fa-house-user {
@@ -35,6 +35,7 @@
     text-transform: uppercase;
     color: #fff;
     transition: all 0.5s ease-out;
+    text-decoration: none;
 }
 
 .nav-links:hover {
@@ -48,7 +49,6 @@
 }
 
 @media screen and (max-width: 960px) {
-
     .menu-icon {
         display: block;
         position: absolute;
@@ -81,14 +81,11 @@
     }
     .navbar-logo {
         position: absolute;
-        left:0;
-     
+        left: 0;
     }
     .nav-links {
         text-align: center;
         padding: 0.5rem;
         width: 100%;
-    
     }
-
 }
